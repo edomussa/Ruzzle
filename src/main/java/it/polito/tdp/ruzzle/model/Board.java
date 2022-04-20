@@ -15,8 +15,8 @@ import javafx.beans.property.StringProperty;
  */
 public class Board {
 	private List<Pos> positions;
-	private Map<Pos, StringProperty> cells;
-
+	private Map<Pos, StringProperty> cells; //stringproperty ci permette di non fare ogni
+											//volta la setText per ogni lettera
 	private int size;
 
 	/**
